@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#6A7370;
+}
+
+header {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 70px;
+	text-align:center;
+}
+
+aside {
+	display:inline-block;
+	width:100px;
+	float:left;
+}
+
+article {
+	float:right;
+	background-color:#D9DECE;
+	}
+
+footer {
+	background-color:#CCCBBA;
+	padding:5px;
+	margin-left:100px;
+}
+
+p{
+	margin:20px 0;
+}
+
+
+
+#container {
+	width:1000px;
+	margin: 20px auto;
+}
+
+#main {
+	font-family: Verdana;
+	padding:15px;
+	padding-bottom: 30px;
+	background-color:#D9DECE;
+	width:900px;
+	height:500px;
+	display:inline-block;
+	box-sizing:border-box;
+}
+#text {
+	height:325px;
+	overflow:auto;
+}
+
+#way_block {
+	display:inline-block;
+	height:125px;
+	width:400px;
+	background-color:#DFEDEB;
+	overflow:auto;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+
+#actions_block {
+	margin-left: 70px;
+	display:inline-block;
+	height:125px;
+	width:400px;
+	background-color:#CCE0ED;
+	overflow:auto;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+
+#menu {
+	background-color:#C2B8A7;
+	list-style:none;
+}
+
+#bag {
+	padding:15px;
+	display:inline-block;
+	width: 600px;		
+	height:470px;
+	box-sizing: border-box;
+	background-color:#DEDECA;
+	border:1px solid black;
+	border-right:0;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
+#equip {
+	padding:10px;
+	background-color:#DBE6D5;
+	display:inline-block;
+	width: 270px;	
+	height:470px;
+	box-sizing: border-box;
+	border:1px solid black;
+	border-left:0;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
+.item {	
+	display:inline-block;
+	border: 1px solid #949494;
+	padding:2px;
+	margin:4px;
+}
+
+.header {
+	text-align:center;
+	color:#949494;
+	font-size:15px;
+}
+
+.next {
+	font-style: italic;
+	background-color:#C5D6D0;
+	padding:10px;
+	border: 1px solid #B2CFB2;
+}
+
+.next:active {
+	background-color:#B5C7C6;
+}
+
+.action {
+	background-color:#C1DDE0;
+	padding:3px;
+	border:1px solid #B5C7C4;
+	box-sizing: border-box;
+}
+
+.action:hover {
+	background-color:#B1C9CC;
+	padding:3px;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+
+.dest {
+	background-color:#D3E3E0;
+	padding:3px;
+	border:1px solid #B5C7C4;
+	box-sizing: border-box;
+}
+
+.dest:hover {
+	background-color:#C5CED4;
+	padding:3px;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+
+.menu_btn {
+	padding:5px;
+	font-size:18px;
+}
+
+.menu_btn:hover{
+	background-color:#B6D1CB;
+}
+
+.menu_btn.selected {
+	background-color:#D9DECE;
+}
+
+.menu_btn.disabled {
+	background-color:#D1CEC9;
+}
+
+
