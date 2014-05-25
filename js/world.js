@@ -165,14 +165,14 @@ Map = function() {
 						"Около зеркала",
 						{
 							"main": "Среди царапин на постаменте зеркала можно было разобрать ваше имя.",
-							"first_time": "Зеркало стоит на постаменте из какого-то темно-синего камня. Увидеть свое отражение вы смогли бы лишь когда подошли к зеркалу вплотную: зеркало смотрело прямо на стену пещеры, которая была за за два локтя от постамента.",
+							"first_time": "Зеркало стоит на постаменте из какого-то темно-синего камня. Свеча прилеплена низом к поверхности крышки постамента, вы можете взять её с собой. Увидеть свое отражение вы смогли бы лишь когда подошли к зеркалу вплотную: оно смотрело прямо на стену пещеры, которая была за за два локтя от постамента. Только сейчас вы начали понимать, что вы даже не представляете кто вы и как вы выглядите...",
 							"go":"Подойти к зеркалу" //kinda reserve
 						
 						},
 						{
 						"take_candle": new Action("take_candle", "Взять свечу в руки", "console.log('took a candle'); inv.addItem(items['Candle']); delete map.getLoc('TheCave').getPlace('NearMirror').actions['take_candle']; main.displayLoc()"),
 						"go_away": new Action("go_away", "Отойти от зеркала", "map.go([null, 'MirrorRoom'])"),
-						"close": new Action("close", "Подойти к зеркалу вплотную", "main.displayCreation();  delete map.getLoc('TheCave').getPlace('NearMirror').actions['close']")
+						"close": new Action("close", "Подойти к зеркалу вплотную и посмотреть в него", "main.displayCreation();  delete map.getLoc('TheCave').getPlace('NearMirror').actions['close']")
 						
 						},
 						[]

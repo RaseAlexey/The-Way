@@ -12,6 +12,7 @@
 		<script src="js/core.js"></script>
 		<script src="js/journal.js"></script>
 		<script src="js/player.js"></script>
+		<script src="js/ui.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
@@ -41,10 +42,14 @@
 			</footer>
 		</div>
 		
+		<div id="test_field">
+			<span id="gen_spinbox"></span>
+		</div>
 		<script>
 			$(document).ready(
 				function() {
 					ini();
+					$("#gen_spinbox").html(test_spinbox_group1.getCode()+test_spinbox_group2.getCode())
 				}
 			);
 		</script>
